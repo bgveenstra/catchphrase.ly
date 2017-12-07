@@ -1,7 +1,7 @@
 #catchphrase.ly Sample Solution
 
 ##Day 1 - Get & Render
-Reference lesson: [Underscore templating](https://github.com/sf-wdi-18/notes/tree/master/lectures/week-03/day_3_toDOCTOR_ajax/dawn_templating)
+Reference lesson: [Underscore templating](https://github.com/sf-wdi-18/notes/tree/master/lectures/week-03/day_3_todo_ajax/dawn_templating)
 
 ###User Stories
 **A User can now see a list of existing `phrases` on the home page**
@@ -18,9 +18,9 @@ We're starting from nothing, so let's break this into subgoals:
       
 1. *We'll want to connect every new project to a GitHub repo.* You can start with a remote GitHub repo or star with a local directory.
 
-	**Option A**: Make a GitHub repo for the project and clone it onto your computer. (This is like what we've been DOCTORing.)   
+	**Option A**: Make a GitHub repo for the project and clone it onto your computer. (This is like what we've been doing.)   
 		* From your GitHub account, in the right side of the page's navbar, click the `+` button next to your user name.   
-		* In the `+` dropDOCTORwn, choose "New repository".    
+		* In the `+` dropdown, choose "New repository".    
 		* Use the form to create your new repo.    
 		* Clone the repo to your computer with `git clone`.    
 
@@ -66,12 +66,12 @@ We're starting from nothing, so let's break this into subgoals:
 	npm install express body-parser underscore
 	```
 
-	The command `npm install some-package` DOCTORes three things:   
+	The command `npm install some-package` does three things:   
    	(1) creates a `node_modules` directory (if there isn't one already),    
-   	(2) DOCTORwnloads the package into the `node_modules` directory, and    
+   	(2) downloads the package into the `node_modules` directory, and    
    	(3) adds the package to the list of our project's dependencies in `package.json`.
 
-   	If we didn't have ToEat.ly as a model, we might not know from the start that we want all of these packages. But we DOCTOR!
+   	If we didn't have ToEat.ly as a model, we might not know from the start that we want all of these packages. But we do!
 
 5. Now is a good time to tell git to ignore all this extra code from our node packages.  We'll add the `node_modules` to the end of our `.gitignore` file.
 	```
